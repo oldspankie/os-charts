@@ -1,0 +1,11 @@
+apiVersion: v2
+name: istio-env
+description: A Helm Chart for k8s
+dependencies:
+  - name: os-common
+    repository: file://../os-common
+    version: 1.0.0
+
+type: application
+version: 0.1.0
+appVersion: "20220603.1"

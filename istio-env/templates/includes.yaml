@@ -1,0 +1,5 @@
+{{- if eq .Values.envName "dev" }}
+{{ include "os.common.istio.env.gateway" . }}
+{{- end }}
+---
+{{ include "os.common.istio.env.canaryjs.stable" . }}

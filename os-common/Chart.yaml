@@ -1,0 +1,7 @@
+apiVersion: v2
+name: os-common
+description: A shared library to hold common deployment pieces
+
+type: library
+
+version: 1.0.0

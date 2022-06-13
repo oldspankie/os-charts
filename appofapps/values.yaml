@@ -1,0 +1,8 @@
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: https://github.com/oldspankie/os-charts.git
+    targetRevision: HEAD
+
+chartURL: https://github.com/oldspankie/os-charts.git

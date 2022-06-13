@@ -1,0 +1,16 @@
+appName: canaryjs-dev
+envNamespace: os-dev
+imageSource: nexus.klu.os:9001
+imageName: os-canary-k8s-js
+
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: https://github.com/oldspankie/os-charts.git
+    targetRevision: HEAD
+    imageSource: /os-canary-k8s-js
+    containerPort: 3001
+
+
+appVersion: '20220609.0845'
